@@ -1,0 +1,109 @@
+<!doctype html> 
+<html lang="en">
+    <head> 
+         <link rel="stylesheet" href="mycss.css">
+        <!--Required meta tags-->
+         <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">      
+        <!--Bootstrap CSS--> 
+        
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open" viewBox="0 0 16 16">
+  <path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM15 7.383l-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2Z"/>
+</svg>
+    
+        <title> My Bootstrap Resume</title>    
+    
+    </head>
+    <body class="bg-light"> 
+            <div class="container-fluid p-5">
+                <div class="row">
+                        
+                    <div class="col-lg-4 bg-dark text-white text-center py-4">
+        <div class="header-left">
+        <img src="myPhoto.png" alt="photo" class=" img-thumbnail rounded-circle mb-2">
+            <h1 class="display-5"> Anne Genevieve Telcy</h1>
+            <h4 class="lead text-uppercase text-white-50 mb-4"> Computer Engineering</h4>
+        </div>
+        <div>
+           <h5 class=" text-uppercase bg-black text-white py-2 rounded-pill"> Contact</h5> 
+            <ul class="list-unstyled text-white-50 ml-5 py-2 text-left"></ul>                 
+                    <li class="list-item">
+                        <i class="bi bi-telephone-fill"></i>239-316-2646 </li>
+            <li class="list-item">
+                <i class="bi bi-envelope-open"></i>
+                 annetelcy7@gmail.com
+            </li>
+            <li class= "list-item">
+                <i class="bi bi-geo-alt-fill"></i>
+                507 3rd street, Lake Park
+            </li>
+        </div>
+                        
+        <div>
+            <h5 class="text-uppercase bg-black text-white py-2 rounded-pill"> Education</h5>
+            <ul class="list text-white-50 ml-5 py-2 text left text capitalize">
+                <li class="list-item">Florida Atlantic University-BS, Computer Science/Engineering-2023</li>
+                <li lass="list-item">Florida Southern College- Bachelor of Arts, Chemistry-2016</li>
+                
+                
+            </ul>
+        </div>
+          <div>
+            <h5 class="text-uppercase bg-black text-white py-2 rounded-pill"> Skills</h5>
+            <ul class="list text-white-50 ml-5 py-2 text left text capitalize">
+                <li class="list-item"> French, Creole, Spanish, C, C++, HTML, Bootstrap, JavaScript</li>
+                <li lass="list-item">Minitab, Mathlab, LIMS, Microsoft Word, Excel, Powerpoint</li>
+              </ul>
+            </div>
+                    </div>           
+               <div class="col-lg-8 bg-light text-dark py-4 px-5">
+            <div class="header-right">
+            </div>
+            <h4 class="text-uppercase"> Background</h4>
+            <hr> 
+            <p> I am currently obtaining my second bachelor of Science in Computer Science. My first degree was in chemistry; however I work in Healthcare and hope to combine that with CS. I have many research experiences in the chemistry laboratory as an analytical chemist. I am looking forward to specialise in arificial intelligence in order to implement all my knowledge in one </p>
+    
+        <div> 
+            <h4 class="text-uppercase"> Professional Experience</h4>
+            <hr>
+            
+        </div>
+        <ul class="list">
+            <li class="list-item">
+                <h5 class="display-6 text-uppercase"> Clinical Research Coordinator</h5>
+                <h6 class=" text-uppercase text-black-50"> Envision Healthcare/2020-present</h6>
+                <p> Ensure compliance of studies: creates reports on each study: oversee daily operations; Ensure proper collection of specimens and correct methodologies of analysis; calibrate intruments  
+                </p>
+            </li>
+        </ul>
+        
+    <ul class="list">
+            <li class="list-item">
+                <h5 class="display-6 text-uppercase"> Analytical Chemist</h5>
+                <h6 class=" text-uppercase text-black-50"> Evio Labs/2018-2020</h6>
+                <p> Analyzed cannabis products for potency, microbials, pesticides, terpenes, heavy metals; Helped develop and update Standard Operating Procedures as part of the research developement team. 
+                </p>
+            </li>
+        </ul>
+        
+ <ul class="list">
+            <li class="list-item">
+                <h5 class="display-6 text-uppercase"> Quality control technician</h5>
+                <h6 class=" text-uppercase text-black-50"> STS Inks/2017-2018</h6>
+                <p> Ensure proper testing of inks; ensure correct concentration of formulation of inks and mixture of inks; followed specific methodologies to test in order to ensure stability and meet ends for customers. 
+                </p>
+            </li>
+        </ul>
+     </div> 
+       </div>
+        </div>          
+       
+    </body>
+</html>
